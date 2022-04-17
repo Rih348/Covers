@@ -1,5 +1,3 @@
-# Here to display the youtube API 
-
 import os
 import google_auth_oauthlib.flow
 import googleapiclient.discovery
@@ -7,7 +5,7 @@ import googleapiclient.errors
 import json
 
 # scopes = ["https://www.googleapis.com/auth/youtube.force-ssl"]
-api_key = 'AIzaSyCuLtmHeNNl2IroVAY2dog2SFOJXymLkD0'
+# api_key = 
 
 def main():
 
@@ -58,7 +56,7 @@ if __name__ == "__main__":
 
 class youtube:
     def __init__(self):
-        api_key = 'AIzaSyCuLtmHeNNl2IroVAY2dog2SFOJXymLkD0'
+        # api_key =
         youtube = googleapiclient.discovery.build(
         'youtube', 'v3', developerKey= api_key )
 

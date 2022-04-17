@@ -1,6 +1,3 @@
-# export SPOTIPY_CLIENT_ID='848cb28237744e39bdcb7b766996d9dd'
-# export SPOTIPY_CLIENT_SECRET='6aae92519fb9458eb741925f9b999991'
-
 import spotipy, json 
 from string import ascii_uppercase
 
